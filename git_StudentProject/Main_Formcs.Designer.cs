@@ -30,14 +30,14 @@
         {
             this.Students = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.emp_bt = new System.Windows.Forms.Button();
             this.Students.SuspendLayout();
             this.SuspendLayout();
             // 
             // Students
             // 
             this.Students.BackColor = System.Drawing.Color.White;
-            this.Students.Controls.Add(this.button2);
+            this.Students.Controls.Add(this.emp_bt);
             this.Students.Controls.Add(this.button1);
             this.Students.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Students.Location = new System.Drawing.Point(27, 37);
@@ -56,14 +56,14 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // emp_bt
             // 
-            this.button2.Location = new System.Drawing.Point(240, 372);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(483, 145);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.emp_bt.Location = new System.Drawing.Point(240, 372);
+            this.emp_bt.Name = "emp_bt";
+            this.emp_bt.Size = new System.Drawing.Size(483, 145);
+            this.emp_bt.TabIndex = 1;
+            this.emp_bt.Text = "button2";
+            this.emp_bt.UseVisualStyleBackColor = true;
             // 
             // Main_Formcs
             // 
@@ -84,6 +84,6 @@
 
         private System.Windows.Forms.GroupBox Students;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button emp_bt;
     }
 }
