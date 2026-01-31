@@ -15,6 +15,13 @@ namespace git_StudentProject
         public Login_Form()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void cancel_bt_Click(object sender, EventArgs e){
+        // Login_Form log = new Login_Form();
+        this.Hide();
         }
     }
 }
