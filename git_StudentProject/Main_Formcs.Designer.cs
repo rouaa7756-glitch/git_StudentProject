@@ -33,9 +33,12 @@
             // 
             // Students
             // 
-            this.Students.Location = new System.Drawing.Point(604, 196);
+            this.Students.BackColor = System.Drawing.Color.White;
+            this.Students.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Students.Location = new System.Drawing.Point(27, 37);
             this.Students.Name = "Students";
-            this.Students.Size = new System.Drawing.Size(200, 100);
+            this.Students.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Students.Size = new System.Drawing.Size(960, 435);
             this.Students.TabIndex = 0;
             this.Students.TabStop = false;
             this.Students.Text = "Students";
