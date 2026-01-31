@@ -59,13 +59,15 @@
             // 
             // emp_bt
             // 
+            this.emp_bt.BackColor = System.Drawing.Color.Thistle;
             this.emp_bt.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emp_bt.Location = new System.Drawing.Point(227, 131);
+            this.emp_bt.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.emp_bt.Location = new System.Drawing.Point(230, 131);
             this.emp_bt.Name = "emp_bt";
             this.emp_bt.Size = new System.Drawing.Size(483, 145);
             this.emp_bt.TabIndex = 1;
             this.emp_bt.Text = "Employee";
-            this.emp_bt.UseVisualStyleBackColor = true;
+            this.emp_bt.UseVisualStyleBackColor = false;
             // 
             // Main_Formcs
             // 
