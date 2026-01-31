@@ -70,6 +70,7 @@
             this.login_bt.TabIndex = 2;
             this.login_bt.Text = "Login";
             this.login_bt.UseVisualStyleBackColor = false;
+            this.login_bt.Click += new System.EventHandler(this.login_bt_Click);
             // 
             // cancel_bt
             // 

@@ -23,5 +23,10 @@ namespace git_StudentProject
         // Login_Form log = new Login_Form();
         this.Hide();
         }
+
+        private void login_bt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
