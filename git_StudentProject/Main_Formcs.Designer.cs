@@ -49,7 +49,9 @@
             // 
             // stud_bt
             // 
-            this.stud_bt.BackColor = System.Drawing.Color.Lavender;
+            this.stud_bt.BackColor = System.Drawing.Color.Thistle;
+            this.stud_bt.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stud_bt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.stud_bt.Location = new System.Drawing.Point(227, 342);
             this.stud_bt.Name = "stud_bt";
             this.stud_bt.Size = new System.Drawing.Size(483, 145);
@@ -60,7 +62,7 @@
             // 
             // emp_bt
             // 
-            this.emp_bt.BackColor = System.Drawing.Color.Thistle;
+            this.emp_bt.BackColor = System.Drawing.Color.PaleVioletRed;
             this.emp_bt.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emp_bt.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.emp_bt.Location = new System.Drawing.Point(230, 131);
