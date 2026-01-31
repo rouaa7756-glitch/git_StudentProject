@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(604, 196);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
             // 
             // Main_Formcs
             // 
@@ -36,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1019, 906);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Main_Formcs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main_Formcs";
@@ -44,5 +55,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
