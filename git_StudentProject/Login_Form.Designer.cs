@@ -33,6 +33,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.login_bt = new System.Windows.Forms.Button();
             this.cancel_bt = new System.Windows.Forms.Button();
+            this.txt_pass = new System.Windows.Forms.TextBox();
+            this.txt_name = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +80,23 @@
             this.cancel_bt.TabIndex = 3;
             this.cancel_bt.Text = "Cancel";
             this.cancel_bt.UseVisualStyleBackColor = false;
+            this.cancel_bt.Click += new System.EventHandler(this.cancel_bt_Click);
+            // 
+            // txt_pass
+            // 
+            this.txt_pass.Location = new System.Drawing.Point(194, 512);
+            this.txt_pass.Name = "txt_pass";
+            this.txt_pass.Size = new System.Drawing.Size(356, 27);
+            this.txt_pass.TabIndex = 4;
+            this.txt_pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_name
+            // 
+            this.txt_name.Location = new System.Drawing.Point(194, 432);
+            this.txt_name.Name = "txt_name";
+            this.txt_name.Size = new System.Drawing.Size(356, 27);
+            this.txt_name.TabIndex = 5;
+            this.txt_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Login_Form
             // 
@@ -85,6 +104,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(776, 822);
+            this.Controls.Add(this.txt_name);
+            this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.cancel_bt);
             this.Controls.Add(this.login_bt);
             this.Controls.Add(this.pictureBox1);
@@ -94,6 +115,7 @@
             this.Text = "Login_Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -103,5 +125,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button login_bt;
         private System.Windows.Forms.Button cancel_bt;
+        private System.Windows.Forms.TextBox txt_pass;
+        private System.Windows.Forms.TextBox txt_name;
     }
 }
