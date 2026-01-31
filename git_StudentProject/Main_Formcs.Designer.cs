@@ -48,7 +48,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1019, 906);
+            this.ClientSize = new System.Drawing.Size(1019, 697);
             this.Controls.Add(this.Students);
             this.Name = "Main_Formcs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
