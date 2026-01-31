@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.Students = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.stud_bt = new System.Windows.Forms.Button();
             this.emp_bt = new System.Windows.Forms.Button();
             this.Students.SuspendLayout();
             this.SuspendLayout();
@@ -38,7 +38,7 @@
             // 
             this.Students.BackColor = System.Drawing.Color.White;
             this.Students.Controls.Add(this.emp_bt);
-            this.Students.Controls.Add(this.button1);
+            this.Students.Controls.Add(this.stud_bt);
             this.Students.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Students.Location = new System.Drawing.Point(27, 37);
             this.Students.Name = "Students";
@@ -47,22 +47,24 @@
             this.Students.TabIndex = 0;
             this.Students.TabStop = false;
             // 
-            // button1
+            // stud_bt
             // 
-            this.button1.Location = new System.Drawing.Point(240, 123);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(483, 145);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.stud_bt.Location = new System.Drawing.Point(227, 342);
+            this.stud_bt.Name = "stud_bt";
+            this.stud_bt.Size = new System.Drawing.Size(483, 145);
+            this.stud_bt.TabIndex = 0;
+            this.stud_bt.Text = "Student";
+            this.stud_bt.UseVisualStyleBackColor = true;
+            this.stud_bt.Click += new System.EventHandler(this.stud_bt_Click);
             // 
             // emp_bt
             // 
-            this.emp_bt.Location = new System.Drawing.Point(240, 372);
+            this.emp_bt.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emp_bt.Location = new System.Drawing.Point(227, 131);
             this.emp_bt.Name = "emp_bt";
             this.emp_bt.Size = new System.Drawing.Size(483, 145);
             this.emp_bt.TabIndex = 1;
-            this.emp_bt.Text = "button2";
+            this.emp_bt.Text = "Employee";
             this.emp_bt.UseVisualStyleBackColor = true;
             // 
             // Main_Formcs
@@ -83,7 +85,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox Students;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button stud_bt;
         private System.Windows.Forms.Button emp_bt;
     }
 }

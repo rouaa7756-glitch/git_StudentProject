@@ -16,5 +16,10 @@ namespace git_StudentProject
         {
             InitializeComponent();
         }
+
+        private void stud_bt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
