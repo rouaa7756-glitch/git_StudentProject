@@ -49,12 +49,13 @@
             // 
             // stud_bt
             // 
+            this.stud_bt.BackColor = System.Drawing.Color.Lavender;
             this.stud_bt.Location = new System.Drawing.Point(227, 342);
             this.stud_bt.Name = "stud_bt";
             this.stud_bt.Size = new System.Drawing.Size(483, 145);
             this.stud_bt.TabIndex = 0;
             this.stud_bt.Text = "Student";
-            this.stud_bt.UseVisualStyleBackColor = true;
+            this.stud_bt.UseVisualStyleBackColor = false;
             this.stud_bt.Click += new System.EventHandler(this.stud_bt_Click);
             // 
             // emp_bt
